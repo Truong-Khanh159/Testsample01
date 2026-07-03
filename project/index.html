@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reanty real estate landing page for finding homes, apartments, villas, and commercial properties.">
+  <title>Reanty - Real Estate Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <section class="top-bar" aria-label="Contact information">
+      <div class="container top-bar__inner">
+        <ul class="top-bar__contacts">
+          <li>
+            <a href="mailto:info@webmail.com" aria-label="Email info at webmail dot com">
+              <span class="icon icon--mail" aria-hidden="true"></span>
+              info@webmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://maps.google.com/?q=547+tn+tower+St,+anglo+City,+USA" target="_blank" rel="noopener">
+              <span class="icon icon--pin" aria-hidden="true"></span>
+              547 tn tower St. anglo City, USA
+            </a>
+          </li>
+        </ul>
+
+        <ul class="social-list top-bar__socials" aria-label="Social links">
+          <li><a href="#" aria-label="Facebook"><span class="icon icon--facebook" aria-hidden="true"></span></a></li>
+          <li><a href="#" aria-label="Twitter"><span class="icon icon--twitter" aria-hidden="true"></span></a></li>
+          <li><a href="#" aria-label="Instagram"><span class="icon icon--instagram" aria-hidden="true"></span></a></li>
+          <li><a href="#" aria-label="LinkedIn"><span class="icon icon--linkedin" aria-hidden="true"></span></a></li>
+          <li><a href="#" aria-label="Pinterest"><span class="icon icon--pinterest" aria-hidden="true"></span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <div class="container main-nav__inner">
+        <a class="logo" href="#home" aria-label="Reanty homepage">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span class="logo__text">Reanty<span>.</span></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="main-nav__menu" id="primary-menu">
+          <li><a class="main-nav__link is-active" href="#home">Home</a></li>
+          <li><a class="main-nav__link" href="#about">About</a></li>
+          <li><a class="main-nav__link" href="#feature">Feature</a></li>
+          <li><a class="main-nav__link" href="#property">Market</a></li>
+          <li><a class="main-nav__link" href="#services">Services</a></li>
+          <li><a class="main-nav__link" href="#contact">Contact</a></li>
+        </ul>
+
+        <ul class="main-nav__actions">
+          <li><a class="login-link" href="#">Log In</a></li>
+          <li><a class="button button--primary button--small" href="#">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-soft">
+      <div class="container hero__inner">
+        <article class="hero__content">
+          <h1 class="hero__title">Find the best Real Estate on your country .</h1>
+          <p class="hero__text">With over 1 million homes for sale available on the website, Renting can match you with a house.</p>
+          <a class="button button--primary" href="#property">Start membership</a>
+
+          <div class="hero__slider" aria-label="Featured house slider">
+            <button class="hero__slide is-active" type="button">House 1</button>
+            <button class="hero__slide" type="button">House 2</button>
+            <button class="hero__slide" type="button">House 3</button>
+            <span class="hero__slider-line" aria-hidden="true"></span>
+            <span class="hero__slider-count">1</span>
+            <span class="hero__slider-total">2&nbsp;&nbsp;3</span>
+          </div>
+        </article>
+
+        <article class="hero__visual" aria-label="Featured home preview">
+          <img class="hero__image" src="images/hero-house.jpg" alt="Modern real estate property exterior">
+          <span class="hero__curve" aria-hidden="true"></span>
+
+          <aside class="revenue-card" aria-label="Revenue summary">
+            <span class="revenue-card__icon icon icon--revenue" aria-hidden="true"></span>
+            <strong>$7454.21</strong>
+            <span>Revenue</span>
+          </aside>
+
+          <button class="play-card" type="button" aria-label="Play video about how it works">
+            <span>How it works</span>
+            <span class="play-card__button" aria-hidden="true"></span>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="commercial section" id="feature">
+      <div class="container">
+        <header class="section-heading section-heading--center">
+          <h2>Commercial Real Estate And Office</h2>
+          <p>Work with Renting brokers who help you to get started with smart tools to.</p>
+        </header>
+
+        <div class="commercial__grid">
+          <article class="guide-card">
+            <span class="guide-card__icon icon icon--buyer" aria-hidden="true"></span>
+            <h3>Buyer Guides</h3>
+            <p>Nurture valuable leads into customers, and turn one time.</p>
+          </article>
+
+          <article class="guide-card guide-card--featured">
+            <span class="guide-card__icon icon icon--renter" aria-hidden="true"></span>
+            <h3>Renter Guides</h3>
+            <p>Build brand awareness on the top social media networks.</p>
+          </article>
+
+          <article class="guide-card">
+            <span class="guide-card__icon icon icon--seller" aria-hidden="true"></span>
+            <h3>Seller Guides</h3>
+            <p>Get professionally-written content that attracts qualified.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dream section">
+      <div class="container dream__inner">
+        <article class="dream__media">
+          <img class="dream__image dream__image--back" src="images/dream-home-back.jpg" alt="Interior living room with large windows">
+          <img class="dream__image dream__image--front" src="images/dream-home-front.jpg" alt="Luxury living space in a new build home">
+          <aside class="rating-card" aria-label="Five star rating">
+            <span class="rating-card__star" aria-hidden="true"></span>
+            <strong>5</strong>
+            <span>Star Rating</span>
+          </aside>
+        </article>
+
+        <article class="dream__content">
+          <h2>Dream Living Spaces Setting New Build</h2>
+          <p>SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens.</p>
+
+          <ul class="feature-list">
+            <li>
+              <span class="feature-list__icon icon icon--home" aria-hidden="true"></span>
+              <div>
+                <h3>The perfect Rsidency</h3>
+                <p>Take a deep dive and browse origin neighborhood photos.</p>
+              </div>
+            </li>
+            <li class="is-highlighted">
+              <span class="feature-list__icon icon icon--architect" aria-hidden="true"></span>
+              <div>
+                <h3>Global Architect Experts</h3>
+                <p>Take a deep dive and browse origin neighborhood photos.</p>
+              </div>
+            </li>
+            <li>
+              <span class="feature-list__icon icon icon--storage" aria-hidden="true"></span>
+              <div>
+                <h3>Built-in a storage capable</h3>
+                <p>Take a deep dive and browse origin neighborhood photos.</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about__inner">
+        <article class="about__content">
+          <p class="eyebrow"><span aria-hidden="true"></span> About home</p>
+          <h2>Today Sells Properties</h2>
+          <p>SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens.</p>
+
+          <ul class="check-list">
+            <li>Live Music concert at Newyork</li>
+            <li>Our best boat Tour is just for you</li>
+            <li>Live Music concert at Newyork</li>
+            <li>Our best boat Tour is just for you</li>
+            <li>Live Music concert at Newyork</li>
+          </ul>
+
+          <div class="about__slider" aria-label="About home image slider">
+            <button class="about__slide is-active" type="button">House 1</button>
+            <button class="about__slide" type="button">House 2</button>
+            <button class="about__slide" type="button">House 3</button>
+            <span class="about__slider-line" aria-hidden="true"></span>
+            <span class="about__slider-count">1</span>
+            <span class="about__slider-total">2&nbsp;&nbsp;3</span>
+          </div>
+        </article>
+
+        <article class="about-gallery" aria-label="Property image gallery">
+          <img class="about-gallery__image about-gallery__image--large" src="images/about-large.jpg" alt="Tall residential building exterior">
+          <img class="about-gallery__image" src="images/about-small-top.jpg" alt="Modern apartment balcony">
+          <img class="about-gallery__image" src="images/about-small-bottom.jpg" alt="Contemporary home facade">
+        </article>
+      </div>
+    </section>
+
+    <section class="services section section-soft" id="services">
+      <div class="container">
+        <header class="section-heading section-heading--center">
+          <h2>Services provide for you</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+        </header>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <span class="service-card__icon icon icon--bed" aria-hidden="true"></span>
+            <h3>Bed Rooms</h3>
+            <p>Desktop publishing software like aldus page maker including</p>
+            <a href="#">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon icon icon--pool" aria-hidden="true"></span>
+            <h3>Swimming pool</h3>
+            <p>React creative agency amet, consec tetur adipiscing elit.</p>
+            <a href="#">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon icon icon--content" aria-hidden="true"></span>
+            <h3>Copywriting content</h3>
+            <p>The standard chunk of used since the 1500s is reproduced</p>
+            <a href="#">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon icon icon--smart-home" aria-hidden="true"></span>
+            <h3>Smart Home</h3>
+            <p>The standard chunk of used since the 1500s is reproduced</p>
+            <a href="#">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon icon icon--library" aria-hidden="true"></span>
+            <h3>Libarary area</h3>
+            <p>Desktop publishing software like aldus page maker including</p>
+            <a href="#">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon icon icon--duty" aria-hidden="true"></span>
+            <h3>Responsive Duty</h3>
+            <p>React creative agency amet, consec tetur adipiscing elit.</p>
+            <a href="#">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured section" id="property">
+      <div class="container">
+        <header class="featured__header">
+          <div class="section-heading">
+            <h2>Featured Property</h2>
+            <p>Find your suitable house here and stay safe and relaxe with pleasure</p>
+          </div>
+
+          <ul class="property-tabs" role="tablist" aria-label="Property type">
+            <li><button class="property-tabs__button is-active" type="button" role="tab" aria-selected="true">Appartment</button></li>
+            <li><button class="property-tabs__button" type="button" role="tab" aria-selected="false">Vila</button></li>
+            <li><button class="property-tabs__button" type="button" role="tab" aria-selected="false">Land</button></li>
+          </ul>
+        </header>
+
+        <div class="property-grid">
+          <article class="property-card">
+            <img class="property-card__image" src="images/property-1.jpg" alt="The Stokes Appartment exterior">
+            <div class="property-card__body">
+              <h3>The Stokes Appartment</h3>
+              <p><span class="icon icon--location" aria-hidden="true"></span> Cleveland, United States</p>
+              <strong>$2,32,120</strong>
+              <a class="property-card__link" href="#" aria-label="View The Stokes Appartment">→</a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <img class="property-card__image" src="images/property-2.jpg" alt="The Stokes Appartment side view">
+            <div class="property-card__body">
+              <h3>The Stokes Appartment</h3>
+              <p><span class="icon icon--location" aria-hidden="true"></span> Cleveland, United States</p>
+              <strong>$2,32,120</strong>
+              <a class="property-card__link" href="#" aria-label="View The Stokes Appartment">→</a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <img class="property-card__image" src="images/property-3.jpg" alt="The Stokes Appartment front view">
+            <div class="property-card__body">
+              <h3>The Stokes Appartment</h3>
+              <p><span class="icon icon--location" aria-hidden="true"></span> Cleveland, United States</p>
+              <strong>$2,32,120</strong>
+              <a class="property-card__link" href="#" aria-label="View The Stokes Appartment">→</a>
+            </div>
+          </article>
+        </div>
+
+        <a class="button button--outline featured__button" href="#">Explore Property</a>
+      </div>
+    </section>
+
+    <section class="highlight-banner" aria-label="Highlighted property unit">
+      <img class="highlight-banner__image" src="images/highlight-property.jpg" alt="Large residential property building">
+      <div class="container highlight-banner__inner">
+        <aside class="unit-badge" aria-label="Unit number 9A">
+          <span>Unit No.</span>
+          <strong>9A</strong>
+        </aside>
+
+        <article class="floating-property-card">
+          <img src="images/highlight-thumb.jpg" alt="Green residential property landscape">
+          <div>
+            <strong>$4,000</strong>
+            <span>242 Metric way</span>
+            <ul aria-label="Property features">
+              <li><span class="icon icon--bed-small" aria-hidden="true"></span>2</li>
+              <li><span class="icon icon--bath" aria-hidden="true"></span>2</li>
+              <li><span class="icon icon--area" aria-hidden="true"></span>500sqft</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonial section">
+      <div class="container">
+        <header class="section-heading section-heading--center">
+          <h2>What our customers are saying</h2>
+          <p>We make sure you have a fine distance with the sickness. We make you never lose hope.</p>
+        </header>
+
+        <div class="testimonial__body">
+          <button class="testimonial__arrow testimonial__arrow--prev" type="button" aria-label="Previous testimonial">←</button>
+
+          <article class="testimonial__media">
+            <span class="testimonial__accent" aria-hidden="true"></span>
+            <img src="images/customer.jpg" alt="Customer Yunus Seyhan">
+          </article>
+
+          <article class="testimonial__quote">
+            <span class="testimonial__quote-mark" aria-hidden="true">“</span>
+            <blockquote>
+              <p>We make sure you have a fine distance with the sickness. We make you never lose hope. We make sure you have with the sickness.</p>
+            </blockquote>
+            <p class="testimonial__rating" aria-label="Five star rating">★★★★★</p>
+            <h3>Yunus Seyhan</h3>
+            <p>Postgraduate Student</p>
+          </article>
+
+          <button class="testimonial__arrow testimonial__arrow--next" type="button" aria-label="Next testimonial">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section">
+      <div class="container">
+        <header class="section-heading section-heading--center">
+          <h2>We build more projects successful</h2>
+        </header>
+
+        <div class="city-grid">
+          <article class="city-card">
+            <img src="images/city-san-francisco.jpg" alt="San Francisco city property">
+            <h3>San Francisco, California</h3>
+            <a href="#">See more <span aria-hidden="true">›</span></a>
+          </article>
+
+          <article class="city-card">
+            <img src="images/city-washington.jpg" alt="Washington DC city property">
+            <h3>Washington DC</h3>
+            <a href="#">See more <span aria-hidden="true">›</span></a>
+          </article>
+
+          <article class="city-card">
+            <img src="images/city-chicago.jpg" alt="Chicago city property">
+            <h3>Chicago</h3>
+            <a href="#">See more <span aria-hidden="true">›</span></a>
+          </article>
+        </div>
+
+        <form class="subscribe-form" action="#" method="post">
+          <label class="sr-only" for="subscribe-email">Email address</label>
+          <span class="icon icon--mail-gray" aria-hidden="true"></span>
+          <input id="subscribe-email" name="email" type="email" placeholder="Enter your email here" required>
+          <button class="button button--primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="blog section">
+      <div class="container">
+        <header class="section-heading section-heading--center">
+          <h2>From our blog</h2>
+          <p>Find your suitable house here and stay safe and relaxe with pleasure</p>
+        </header>
+
+        <div class="blog__grid">
+          <article class="blog-card">
+            <img class="blog-card__image" src="images/blog-1.jpg" alt="Rental home interior">
+            <div class="blog-card__body">
+              <h3><a href="#">How to rent a home very easily?</a></h3>
+              <a class="blog-card__category" href="#"><span class="icon icon--bookmark" aria-hidden="true"></span> Rentals</a>
+              <p>How to rent a home very easily in this pandemic situation. You can rent house through using our platfrom...</p>
+              <footer class="blog-card__meta">
+                <span><span class="icon icon--calendar" aria-hidden="true"></span> 3 years ago</span>
+                <span><span class="icon icon--user" aria-hidden="true"></span> By <a href="#">Mike Hesson</a></span>
+              </footer>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img class="blog-card__image" src="images/blog-2.jpg" alt="Apartment living room">
+            <div class="blog-card__body">
+              <h3><a href="#">How to rent a home very easily?</a></h3>
+              <a class="blog-card__category" href="#"><span class="icon icon--bookmark" aria-hidden="true"></span> Rentals</a>
+              <p>How to rent a home very easily in this pandemic situation. You can rent house through using our platfrom...</p>
+              <footer class="blog-card__meta">
+                <span><span class="icon icon--calendar" aria-hidden="true"></span> 3 years ago</span>
+                <span><span class="icon icon--user" aria-hidden="true"></span> By <a href="#">Mike Hesson</a></span>
+              </footer>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img class="blog-card__image" src="images/blog-3.jpg" alt="Modern rental property exterior">
+            <div class="blog-card__body">
+              <h3><a href="#">How to rent a home very easily?</a></h3>
+              <a class="blog-card__category" href="#"><span class="icon icon--bookmark" aria-hidden="true"></span> Rentals</a>
+              <p>How to rent a home very easily in this pandemic situation. You can rent house through using our platfrom...</p>
+              <footer class="blog-card__meta">
+                <span><span class="icon icon--calendar" aria-hidden="true"></span> 3 years ago</span>
+                <span><span class="icon icon--user" aria-hidden="true"></span> By <a href="#">Mike Hesson</a></span>
+              </footer>
+            </div>
+          </article>
+        </div>
+
+        <a class="button button--outline blog__button" href="#">Read All</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <header class="section-heading section-heading--center">
+          <p class="section-heading__label">Contact with us</p>
+          <h2>Looking For To Buy A Property?</h2>
+        </header>
+
+        <div class="contact__inner">
+          <article class="contact__content">
+            <p>Browse our property listing and find your best and suitable home or house for sale, rent and buying. It's so easy and fast.</p>
+
+            <ul class="contact__list">
+              <li>Archit ecto beatae vitae dicta sunt</li>
+              <li>Largest global RealEstate market</li>
+              <li>Nor again is there anyone</li>
+            </ul>
+
+            <figure class="contact__gallery" aria-label="Contact property preview">
+              <img class="contact__image contact__image--small" src="images/contact-small.jpg" alt="Compact modern property">
+              <img class="contact__image contact__image--large" src="images/contact-large.jpg" alt="Wide modern property">
+              <span class="contact__shape contact__shape--orange" aria-hidden="true"></span>
+              <span class="contact__shape contact__shape--dark" aria-hidden="true"></span>
+            </figure>
+          </article>
+
+          <article class="contact-form-card">
+            <h3>Contact Us</h3>
+            <form class="contact-form" action="#" method="post">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="name" type="text" placeholder="Enter your name" required>
+
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" placeholder="Enter your email" required>
+
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="6" placeholder="Enter your message" required></textarea>
+
+              <button class="button button--primary" type="submit">Send</button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <article class="footer-brand">
+        <a class="logo logo--footer" href="#home" aria-label="Reanty homepage">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span class="logo__text">Reanty<span>.</span></span>
+        </a>
+        <p>With over 1 million homes for sale available on the website.</p>
+        <ul class="social-list footer-brand__socials" aria-label="Footer social links">
+          <li><a href="#" aria-label="LinkedIn"><span class="icon icon--linkedin" aria-hidden="true"></span></a></li>
+          <li><a href="#" aria-label="Facebook"><span class="icon icon--facebook" aria-hidden="true"></span></a></li>
+          <li><a href="#" aria-label="Twitter"><span class="icon icon--twitter" aria-hidden="true"></span></a></li>
+        </ul>
+      </article>
+
+      <nav class="footer-nav" aria-label="Company links">
+        <h2>Company</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#">How we work?</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-label="Contact links">
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="#">Help/FAQ</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><a href="#">Property owners</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-label="More links">
+        <h2>More</h2>
+        <ul>
+          <li><a href="#">Land fees</a></li>
+          <li><a href="#">Property</a></li>
+          <li><a href="#">Law tips</a></li>
+          <li><a href="#">Nadges</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </nav>
+
+      <article class="footer-office">
+        <h2>Head Office</h2>
+        <address>Xilliams Corner Wine @ 2017, 1112 A Market St # Ste B22, Charlottesville, CA 45565</address>
+
+        <form class="footer-newsletter" action="#" method="post">
+          <h3>News letter</h3>
+          <label class="sr-only" for="footer-email">Newsletter email address</label>
+          <input id="footer-email" name="email" type="email" placeholder="Enter your email address" required>
+          <button type="submit" aria-label="Submit newsletter email">
+            <span class="icon icon--mail" aria-hidden="true"></span>
+          </button>
+        </form>
+      </article>
+    </div>
+
+    <div class="container site-footer__bottom">
+      <a href="mailto:email@gmail.com">email@gmail.com</a>
+      <a href="tel:+11234567890">(123) 456-7890</a>
+      <p>© 2021 Ayman Megha All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
